@@ -1,12 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Poppins', sans-serif;
   margin: 0;
   padding: 0;
-  background: #f9f9f9;
+  background: #F7F7F7;
+  color: #333;
 }
 
 header {
-  background: #2c3e50;
+  background: #6C9A8B;
   color: white;
   padding: 20px;
   text-align: center;
@@ -26,7 +29,12 @@ header {
   background: white;
   padding: 15px;
   border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease;
+}
+
+.product:hover {
+  transform: scale(1.02);
 }
 
 .product img {
@@ -37,6 +45,7 @@ header {
 
 .product h3 {
   margin: 10px 0 5px;
+  font-weight: 600;
 }
 
 .product p {
@@ -56,6 +65,6 @@ header {
 footer {
   text-align: center;
   padding: 20px;
-  background: #ecf0f1;
+  background: #e0e0e0;
   margin-top: 40px;
 }
